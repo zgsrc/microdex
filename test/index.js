@@ -51,7 +51,7 @@ describe("Search Engine", function() {
         }, done);
     });
 
-    it.skip("can index the corpus", function(done) {
+    it("can index the corpus", function(done) {
         this.timeout(3600000);
         async.forEachSeries(Object.keys(text), function(macro, cb) {
             var bytes = text[macro].sum("length"),
@@ -76,7 +76,7 @@ describe("Search Engine", function() {
         })
     });
     
-    it.skip("can delete the schema", function(done) {
+    it("can delete the schema", function(done) {
         this.timeout(300000);
         microdex.schema.drop(done);
     });
