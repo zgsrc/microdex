@@ -1,0 +1,31 @@
+{
+  "name": "microdex",
+  "version": "1.0.0",
+  "description": "Micro document full text index.",
+  "keywords": [
+    "microdex",
+    "fulltext",
+    "full text",
+    "search",
+    "dynamodb",
+    "aws",
+    "small string"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jonathan Hollinger",
+  "license": "ISC",
+  "dependencies": {
+    "dynq": "^1.0.23",
+    "natural": "^0.4.0",
+    "smaz": "^1.0.0",
+    "sugar": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-logger": "^1.0.3"
+  }
+}
