@@ -1,4 +1,4 @@
-![Microdex](/package.jpg "Microdex")
+![Microdex](/package.png "Microdex")
 
 # Microdex
 
