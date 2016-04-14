@@ -1,6 +1,6 @@
 {
   "name": "microdex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Micro document full text index.",
   "keywords": [
     "microdex",
@@ -27,5 +27,16 @@
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "mocha-logger": "^1.0.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triploc/microdex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/triploc/microdex/issues"
+  },
+  "homepage": "https://github.com/triploc/microdex#readme"
 }
